@@ -2,6 +2,8 @@
 
 LockMan is a command-line file encryption and decryption tool built with Rust. It provides a simple, secure, and efficient way to lock (encrypt) and unlock (decrypt) files using AES-256-GCM encryption.
 
+You can also find LockMan on [crates.io](https://crates.io/crates/lockman).
+
 ---
 
 ## Features
@@ -18,6 +20,10 @@ LockMan is a command-line file encryption and decryption tool built with Rust. I
 ### Prerequisites
 To build LockMan from source, ensure you have:
 - **Rust** (the latest stable version recommended) installed. You can install Rust from [rust-lang.org](https://www.rust-lang.org/).
+- Alternatively, you can install it directly from [crates.io](https://crates.io/crates/lockman) with `cargo`:
+  ```bash
+  cargo install lockman
+  ```
 
 ### Build Instructions
 1. Clone the repository:
@@ -25,7 +31,7 @@ To build LockMan from source, ensure you have:
    git clone https://github.com/Berke-Alp/lockman.git
    cd lockman
    ```
-   
+
 2. Build the project:
    ```bash
    cargo build --release
@@ -37,7 +43,7 @@ To build LockMan from source, ensure you have:
    ```bash
    cargo install --path .
    ```
-   
+
    This makes the `lockman` command globally available in your system.
 
 ---
