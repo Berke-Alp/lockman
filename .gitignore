@@ -11,5 +11,6 @@
 
 # Ignore editor-specific files (optional)
 *.vscode/
+.vscode/
 .idea/
 .DS_Store

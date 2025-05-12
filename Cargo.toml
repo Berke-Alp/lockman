@@ -10,7 +10,17 @@ readme = "README.md"
 repository = "https://github.com/Berke-Alp/lockman"
 homepage = "https://github.com/Berke-Alp/lockman"
 documentation = "https://docs.rs/lockman"
-
+exclude = [
+    ".DS_Store",
+    ".idea/",
+    ".vscode/",
+    "*.log",
+    "*.tmp",
+    "target/",
+    "**/*.bk",
+    "*.swp",
+    "*~"
+]
 
 [dependencies]
 aes-gcm = "0.10.3"
