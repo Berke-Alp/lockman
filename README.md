@@ -196,3 +196,4 @@ This project uses the following crates to deliver its functionality:
 ## Support
 
 If you find LockMan useful, feel free to star the repository or share it with others who need file encryption solutions! Your support means the world. 😊
+
