@@ -1,0 +1,23 @@
+[package]
+name = "lockman"
+version = "0.1.0"
+edition = "2024"
+description = "A secure implementation for managing encrypted files."
+keywords = ["encryption", "secure", "aes-gcm", "file-lock"]
+license = "MIT"
+categories = ["cryptography", "command-line-utilities"]
+readme = "README.md"
+repository = "https://github.com/Berke-Alp/lockman"
+homepage = "https://github.com/Berke-Alp/lockman"
+documentation = "https://docs.rs/lockman"
+
+
+[dependencies]
+aes-gcm = "0.10.3"
+clap = { version = "4.5.37", features = ["derive"] }
+pbkdf2 = { version = "0.12.2", features = ["simple", "sha2", "hmac"] }
+sha2 = { version = "0.10.9", features = ["oid"] }
+bincode = "2.0.1"
+log = "0.4.27"
+env_logger = "0.11.8"
+clap-verbosity-flag = "3.0.2"

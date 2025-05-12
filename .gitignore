@@ -1,0 +1,15 @@
+# Generated output
+/target/
+
+# Intermediate Cargo files
+**/*.rs.bk
+**/Cargo.toml.bk
+
+# Debugging/log files
+*.log
+*.tmp
+
+# Ignore editor-specific files (optional)
+*.vscode/
+.idea/
+.DS_Store
