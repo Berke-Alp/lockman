@@ -42,6 +42,18 @@ To build LockMan from source, ensure you have:
 
 ---
 
+## Important Note on Versioning
+
+LockMan is currently in its early development phase (version `0.x.x`). This means the following:
+
+1. **Non-Stable Structures**: The byte structure of files and the definition of enums may change at any time during development. This can result in incompatibilities between versions.
+2. **Not Suitable for Real-World Use**: LockMan's current state is not intended for real-world applications or personal usage. Use it for testing and development purposes only.
+3. **Backwards Compatibility in the Future**: Starting with version `1.0.0`, all file structures and related dependencies will be stabilized, and backwards compatibility will be guaranteed moving forward.
+
+We recommend waiting for the `1.0.0` release if you require a stable and reliable solution. Stay tuned for updates!
+
+---
+
 ## Usage
 
 LockMan provides an easy-to-use CLI for securely locking and unlocking files.
